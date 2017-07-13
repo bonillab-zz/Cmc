@@ -32,7 +32,10 @@ define(function (require) {
             $('#canvas').html(output);
         });
         
-        mustache('#nino',plantilla[1].menu);
+        for(var i=0; i<plantilla[5].length; i++){
+            mustache(plantilla[5].pl[i]);
+        }
+        
         mustache('.btn_sel_f',plantilla[1].menu);
         mustache("#exp",plantilla[3].pag2);
         mustache('#btn_ovario',plantilla[3].ovario,{text : plantilla[0].contenido.ovarios});

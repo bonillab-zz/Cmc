@@ -1,5 +1,4 @@
 define(function (require) {
-    var plantilla = NaN;
     return [
         {
             'contenido' : {
@@ -40,6 +39,9 @@ define(function (require) {
         },
         {
             'pag3' : '<div id="pag3" class="fondo"><h1 class="objeto titulo">Sistema reproductor Masculino.<br/>Seleccione que deseas estudiar</h1></div>'
+        },
+        {
+            'pl' : ['#nino' , 1 , "menu"]
         }
     ];
 });
